@@ -3,27 +3,27 @@
 #include <stdlib.h>
 
 
-#define VTBL( classptr ) (*(DWORD*)classptr)
-#define PVFN_( classptr , offset ) (VTBL( classptr ) + offset)
-#define VFN_( classptr , offset ) *(DWORD*)PVFN_( classptr , offset )
-#define PVFN( classptr , offset ) PVFN_( classptr , ( offset * sizeof(void*) ) )
-#define VFN( classptr , offset ) VFN_( classptr , ( offset * sizeof(void*) ) )
+#define VTBL(classptr)(*(DWORD*)classptr)
+#define PVFN_(classptr, offset) (VTBL(classptr) + offset)
+#define VFN_(classptr, offset) * (DWORD*)PVFN_(classptr, offset)
+#define PVFN(classptr, offset) PVFN_(classptr, (offset * sizeof(void*)))
+#define VFN(classptr, offset) VFN_(classptr, (offset * sizeof(void*)))
 
-#define DETOUR_TYPE_OBS_ADD				11
-#define DETOUR_TYPE_OBS_XOR				12
-#define DETOUR_TYPE_OBS_STACKADD		13
-#define DETOUR_TYPE_OBS_ROR				14
-#define DETOUR_TYPE_OBS_ADDNOT			15
+#define DETOUR_TYPE_OBS_ADD		 11
+#define DETOUR_TYPE_OBS_XOR		 12
+#define DETOUR_TYPE_OBS_STACKADD 13
+#define DETOUR_TYPE_OBS_ROR		 14
+#define DETOUR_TYPE_OBS_ADDNOT	 15
 
-#define DetourRandTypeLow				DETOUR_TYPE_OBS_ADD
-#define DetourRandTypeHigh				DETOUR_TYPE_OBS_ADDNOT
+#define DetourRandTypeLow  DETOUR_TYPE_OBS_ADD
+#define DetourRandTypeHigh DETOUR_TYPE_OBS_ADDNOT
 
 
 class CVirtualCallGate 
 {
 public:
 
-	void Build( void *pOrigFunc, void *pNewFunc, void* pOrgFuncCaller, bool bIsD3D )
+	void Build(void *pOrigFunc, void *pNewFunc, void* pOrgFuncCaller, bool bIsD3D)
 	{
 		int iTmpRnd = (rand() * 0xFF) + rand();
 		DWORD dwNewFunc = (DWORD)pNewFunc;
