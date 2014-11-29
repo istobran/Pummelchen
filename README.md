@@ -39,7 +39,7 @@ Compile Instructions
 - Install Visual Studio 2015
 - Install Microsoft DirectX SDK June 2010
 - Build the DLL (the compiled dll will not work without the next step)
-- UPX the DLL using the prodived script (dll works now due)
+- UPX the DLL using the prodived script (dll works now)
 
 
 How to use
@@ -63,11 +63,14 @@ Pummelchen Cheat 2015 - Released 15.11.2014
 - Updated C++ runtime to VS2015  
 
 
-Final Word
-==========
+Licenses
+========
 UPX executable distributed based on the UPX License Agreement.
 Microsoft® C++ Runtime distributed under the Mirosoft Go Live Licence.
 
+
+Final Word
+==========
 Thanks for 10 years of fun with this game.
 
 Pummelchen
