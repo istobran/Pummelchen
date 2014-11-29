@@ -87,4 +87,4 @@ Thanks for 10 years of fun with this game.
 
 Pummelchen
 
-pummelchen@yandex.com
+pummelchen@excite.co.jp
