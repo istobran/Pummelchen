@@ -75,7 +75,7 @@ Licenses
 ========
 UPX executable distributed based on the UPX License Agreement.
 
-Microsoft® C++ Runtime distributed under the Mirosoft Go Live Licence.
+Microsoft® C++ Runtime distributed under the Mirosoft® Go Live Licence.
 
 
 Final Word
