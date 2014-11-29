@@ -9,7 +9,7 @@ The Pummelchen cheat works fine with the Escalation addon and the Combined Arms�
 
 History
 =======
-Initially released in 2007 the Pummelchen cheat became popular in the community and famous among developers for its small size by hooking only required APIs. Same year the Pummelchen SDK 1.0 was released which contained open source injectors and a wide range of additional game improvement options unseen before. Updates to stay compatible with the game were released in 2009 and 2012. The code went open source shortly after the first releases. Based on NovaLogic®'s decision to stop supporting PunkBuster™ many years ago the Pummelchen cheat became a quasi-standard game improvement tool used by countless players till today.
+Initially released in 2007 the Pummelchen cheat became popular in the community and famous among developers for its small size by hooking only required APIs. Same year the Pummelchen SDK 1.0 was released which contained open source injectors and a wide range of additional game improvement options unseen before. The code went fully open source shortly after the first releases. Updates to stay compatible with the game were released in 2009 and 2012. Based on NovaLogic®'s decision to stop supporting PunkBuster™ many years ago the Pummelchen cheat became a quasi-standard game improvement tool used by countless players till today.
 
 
 Game Download
