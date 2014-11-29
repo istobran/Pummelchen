@@ -1,6 +1,6 @@
 Pummelchen Cheat 2015
 =====================
-The is a game improvement tool for NovaLogic® Joint Operations™ released in 2004.
+This is a game improvement tool for NovaLogic® Joint Operations™ released in 2004.
 
 http://en.wikipedia.org/wiki/Joint_Operations:_Typhoon_Rising
 
