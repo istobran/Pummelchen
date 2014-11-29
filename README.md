@@ -50,7 +50,7 @@ How to use
 - Add the paths for the Pummelchen.dll and for Jointops.exe
 - Press Inject
 - Verify that the DLL is loaded by going into the Player configuration inside the game
-- If the player figure appears in red color all cheat features are aactivated, no need to press any keys
+- If the player figure appears in red color all cheat features are activated, no need to press any keys
 
 
 Version History
