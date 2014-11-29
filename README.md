@@ -7,7 +7,7 @@ http://en.wikipedia.org/wiki/Joint_Operations:_Typhoon_Rising
 The Pummelchen cheat works fine with the Escalation addon and the Combined Arms™ package. 
 
 Watch this video for a presentation of the different game improvement features:
-https://github.com/Pummelchen/Pummelchen/blob/master/Binaries/Video.wmv
+https://github.com/Pummelchen/Pummelchen/blob/master/Binaries/Video.wmv?raw=true
 
 
 History
