@@ -1,13 +1,16 @@
 Pummelchen Cheat 2015
 =====================
-The is a game improvement tool for NovaLogic Joint Operations released in 2004. 
+The is a game improvement tool for NovaLogic Joint Operations released in 2004.
+
 http://en.wikipedia.org/wiki/Joint_Operations:_Typhoon_Rising
+
 The Pummelchen cheat works fine with the Escalation addon and the Combined Arms package.
 
 
 Game Download
 =============
 You can download the Joint Operations Combined Arms for free from this link:
+
 http://ftp.novalogic.com/C3/kpvsh/JOCAG_Install.exe
 
 Activation Keys are available on Amazon and eBay for less than 5 USD these days.
