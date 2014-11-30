@@ -27,7 +27,7 @@ Activation Keys are available on Amazon and eBay for less than 5 USD these days.
 Tool Features
 =============
 - Supports Joint Operations 1.7.5.7
-- Fully tested and safe to use on official NovaLogic servers
+- Fully tested and safe to use on official NovaLogic® servers
 - Windows 8.1 x64 optimized
 - Ultra small DLL size of just 4 KB
 - DLL Injector included
