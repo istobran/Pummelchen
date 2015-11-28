@@ -79,8 +79,6 @@ Licenses
 UPX executable distributed based on the UPX License Agreement.
 http://upx.sourceforge.net/upx-license.html
 
-Microsoft® C++ Runtime distributed under the Microsoft® Go Live Licence.
-
 
 Final Word
 ==========
