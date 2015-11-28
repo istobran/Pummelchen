@@ -1,10 +1,10 @@
-Pummelchen Cheat 2015
+Pummelchen Tool 2015
 =====================
 This is a game improvement tool for NovaLogic® Joint Operations™ released in 2004.
 
 http://en.wikipedia.org/wiki/Joint_Operations:_Typhoon_Rising
 
-The Pummelchen cheat works fine with the Escalation addon and the Combined Arms™ package. 
+The Pummelchen tool works fine with the Escalation addon and the Combined Arms™ package. 
 
 Watch this video for a presentation of the different game improvement features:
 https://github.com/Pummelchen/Pummelchen/blob/master/Binaries/Video.wmv?raw=true
@@ -12,7 +12,7 @@ https://github.com/Pummelchen/Pummelchen/blob/master/Binaries/Video.wmv?raw=true
 
 History
 =======
-Initially released in 2007 the Pummelchen cheat became popular in the community and famous among developers for its small size by hooking only required APIs. Same year the Pummelchen SDK 1.0 was released which contained open source injectors and a wide range of additional game improvement options unseen before. The code went fully open source shortly after the first releases. Updates to stay compatible with the game were released in 2009 and 2012. Based on NovaLogic®'s decision to stop supporting PunkBuster™ many years ago the Pummelchen cheat became a quasi-standard game improvement tool used by countless players till today.
+Initially released in 2007 the Pummelchen tool became popular in the community and famous among developers for its small size by hooking only required APIs. Same year the Pummelchen SDK 1.0 was released which contained open source injectors and a wide range of additional game improvement options unseen before. The code went fully open source shortly after the first releases. Updates to stay compatible with the game were released in 2009 and 2012. Based on NovaLogic®'s decision to stop supporting PunkBuster™ many years ago the Pummelchen tool became the de-facto standard game improvement tool used by countless players till today.
 
 
 Game Download
@@ -37,8 +37,8 @@ Tool Features
 Game Improvements
 =================
 - Wallhack
-- Player Chams (Yellow/Red)
-- Claymores & Anti-Tank Mines Chams (Yellow/Red)
+- Player Highlight (Yellow/Red)
+- Claymores & Anti-Tank Mines Highlight (Yellow/Red)
 - No Fog
 - No Smoke
 - No Sky
@@ -61,13 +61,13 @@ How to use
 - Add the paths for the Pummelchen.dll and for Jointops.exe
 - Press Inject
 - Verify that the DLL is loaded by going into the Player configuration inside the game
-- If the player figure appears in red color all cheat features are activated, no need to press any keys
+- If the player figure appears in red color all features are activated, no need to press any keys
 
 
 Version History
 ===============
 
-Pummelchen Cheat 2015 - Released 15.11.2014
+Pummelchen Tool 2015 - Released 15.11.2014
 -------------------------------------------
 - Compatibility fixes for Windows 8.1 x64 Update 1
 - Size reduced further from 5KB to 4KB (3.584 Bytes)
@@ -77,8 +77,9 @@ Pummelchen Cheat 2015 - Released 15.11.2014
 Licenses
 ========
 UPX executable distributed based on the UPX License Agreement.
+http://upx.sourceforge.net/upx-license.html
 
-Microsoft® C++ Runtime distributed under the Mirosoft® Go Live Licence.
+Microsoft® C++ Runtime distributed under the Microsoft® Go Live Licence.
 
 
 Final Word
@@ -86,5 +87,3 @@ Final Word
 Thanks for 10 years of fun with this game.
 
 Pummelchen
-
-pummelchen@excite.co.jp
