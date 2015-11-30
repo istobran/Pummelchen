@@ -47,7 +47,7 @@ Game Improvements
 
 Compile Instructions
 ====================
-- Install Visual Studio 2015
+- Install Visual Studio 2015 Community Edition
 - Install Microsoft DirectX SDK June 2010
 - Build the Pummelchen.dll (the compiled dll will not work without the next step)
 - UPX the DLL using the prodived script (Pummelchen.dll works now)
@@ -55,7 +55,6 @@ Compile Instructions
 
 How to use
 ==========
-- Copy files in the "Visual C 2015 Runtime" folder to the folder where you have Pummelchen.dll
 - Check the picture called "Injector Example.png"
 - Open the Injector.exe
 - Add the paths for the Pummelchen.dll and for Jointops.exe
@@ -71,7 +70,7 @@ Pummelchen Cheat 2015 - Released 15.11.2014
 -------------------------------------------
 - Compatibility fixes for Windows 8.1 x64 Update 1
 - Size reduced further from 5KB to 4KB (3.584 Bytes)
-- Updated C++ runtime to VS2015  
+- Compatible with VS2015 RTM C++ runtime
 
 
 Licenses
@@ -82,6 +81,6 @@ http://upx.sourceforge.net/upx-license.html
 
 Final Word
 ==========
-Thanks for 10 years of fun with this game.
+Thanks for 12 years of fun with this game !
 
 Pummelchen
