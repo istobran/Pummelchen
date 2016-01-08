@@ -9,6 +9,11 @@ The Pummelchen cheat works fine with the Escalation addon and the Combined Armsâ
 Watch this video for a presentation of the different game improvements:
 https://github.com/Pummelchen/Pummelchen/blob/master/Binaries/Video.wmv?raw=true
 
+Updates
+=============
+Repair the library setting of solution
+Added a new Stride to Player Chams
+
 
 History
 =======

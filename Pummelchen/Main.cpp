@@ -11,8 +11,31 @@ int m_Stride = 0;
 DWORD dwOldZEnable = D3DZB_TRUE;
 
 LPDIRECT3DTEXTURE9 texRed;
-LPDIRECT3DTEXTURE9 texYellow; 
+LPDIRECT3DTEXTURE9 texYellow;
+LPDIRECT3DTEXTURE9 texBlue;
+LPDIRECT3DTEXTURE9 texGreen;
 
+const BYTE bBlue[60] =
+{
+	0x42, 0x4D, 0x3C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x36, 0x00, 0x00, 0x00, 0x28, 0x00, 0x00, 0x00,
+	0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01,
+	0x00, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x00, 0x12, 0x0B, 0x00, 0x00, 0x12, 0x0B, 0x00,
+	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0xFF, 0x00, 0x00, 0x00, 0x00, 0x00
+};
+
+const BYTE bGreen[60] =
+{
+	0x42, 0x4D, 0x3C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x36, 0x00, 0x00, 0x00, 0x28, 0x00, 0x00, 0x00,
+	0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01,
+	0x00, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x00, 0x12, 0x0B, 0x00, 0x00, 0x12, 0x0B, 0x00,
+	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x20, 0xA0, 0x00, 0x00, 0xFF, 0xFF
+};
 
 const BYTE bRed[60] = 
 { 
@@ -101,7 +124,7 @@ HRESULT WINAPI DrawIndexedPrimitive( IDirect3DDevice9 *pDevice, D3DPRIMITIVETYPE
             
 			for (int i2 = 0; i2 < 4 ; i2++)
 			{	
-				pDevice->SetTexture(i2, texRed);
+				pDevice->SetTexture(i2, texGreen);
 			}
 			
 			return pDrawIndexedPrimitive(pDevice, Type, BaseVertexIndex, MinIndex, NumVertices, StartIndex, PrimitiveCount);			
@@ -109,7 +132,8 @@ HRESULT WINAPI DrawIndexedPrimitive( IDirect3DDevice9 *pDevice, D3DPRIMITIVETYPE
 	}	
 		
 	// Player Chams
-	if(m_Stride == 80)
+	//if(m_Stride == 80)
+	if(m_Stride == 56 || m_Stride == 80)
 	{						
 		pDevice->GetRenderState(D3DRS_ZENABLE, &dwOldZEnable); 
 	    pDevice->SetRenderState(D3DRS_ZENABLE, D3DZB_FALSE); 
@@ -124,7 +148,7 @@ HRESULT WINAPI DrawIndexedPrimitive( IDirect3DDevice9 *pDevice, D3DPRIMITIVETYPE
 
 		for (int i2 = 0; i2 < 4 ; i2++)
 		{	
-			pDevice->SetTexture(i2, texRed); 		
+			pDevice->SetTexture(i2, texGreen);
 		}
 		
 		return pDrawIndexedPrimitive(pDevice, Type, BaseVertexIndex, MinIndex, NumVertices, StartIndex, PrimitiveCount);			
@@ -157,6 +181,8 @@ HRESULT WINAPI CreateDevice(IDirect3D9 *pD3D9, UINT Adapter, D3DDEVTYPE DeviceTy
 
 			D3DXCreateTextureFromFileInMemory(pDevice, (LPCVOID)&bRed,  60,  &texRed);
 			D3DXCreateTextureFromFileInMemory(pDevice, (LPCVOID)&bYellow, 60, &texYellow); 
+			D3DXCreateTextureFromFileInMemory(pDevice, (LPCVOID)&bBlue, 60, &texBlue);
+			D3DXCreateTextureFromFileInMemory(pDevice, (LPCVOID)&bGreen, 60, &texGreen);
 						
 			bHooked = true;
 		}

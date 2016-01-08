@@ -72,7 +72,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Visual Studio 2012\Microsoft DirectX SDK %28June 2010%29\Include</AdditionalIncludeDirectories>
       <CallingConvention>Cdecl</CallingConvention>
       <DebugInformationFormat>None</DebugInformationFormat>
       <CompileAsManaged>false</CompileAsManaged>
@@ -98,8 +98,8 @@
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK\Lib\x86;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>d3d9.lib;d3dx9.lib;appcrt.lib;kernel32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Visual Studio 2012\Microsoft DirectX SDK %28June 2010%29\Lib\x86;D:\Visual Studio 2012\Microsoft Visual Studio 14.0\VC\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;ucrt.lib;kernel32.lib</AdditionalDependencies>
       <EnableUAC>false</EnableUAC>
       <AssemblyDebug>false</AssemblyDebug>
       <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
