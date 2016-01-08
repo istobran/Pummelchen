@@ -12,6 +12,7 @@ https://github.com/Pummelchen/Pummelchen/blob/master/Binaries/Video.wmv?raw=true
 Updates
 =============
 Repair the library setting of solution
+
 Added a new Stride to Player Chams
 
 
